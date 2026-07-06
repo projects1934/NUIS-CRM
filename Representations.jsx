@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps, react-hooks/set-state-in-effect */
 import { useState, useEffect } from 'react';
 import { Plus, Trash2, Briefcase, AlertTriangle, CheckCircle2, Circle } from 'lucide-react';
-import { apiJson } from '../api';
-import { useCan } from '../context/UserContext.jsx';
-import { showToast } from '../components/Toast';
-import InlineEdit from '../components/InlineEdit';
+import { apiJson } from './api';
+import { useCan } from './UserContext.jsx';
+import { showToast } from './Toast';
+import InlineEdit from './InlineEdit';
 
 const STATUS_OPTIONS = [
   { value: 'filled',  label: 'מאויש' },

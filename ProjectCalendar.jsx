@@ -2,7 +2,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, List, ChevronRight, ChevronLeft } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 const HEBREW_MONTHS = ['ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'];
 const DOW = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ש'];

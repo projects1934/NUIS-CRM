@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Plus, Trash2 } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 export default function ProjectModal({ isOpen, onClose, onSave, project = null }) {
   const [title, setTitle] = useState('');

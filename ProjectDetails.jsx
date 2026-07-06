@@ -2,17 +2,17 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import { ArrowRight, Edit, Trash2, Users, Building2, Calendar, Link2, FolderOpen, Plus, X, ExternalLink, Tag, Printer, Target, FileText } from 'lucide-react';
-import { useCan } from '../context/UserContext.jsx';
-import StatusBadge from '../components/StatusBadge';
-import InlineEdit from '../components/InlineEdit';
-import ProjectDrawer from '../components/ProjectDrawer';
-import ProjectTasks from '../components/ProjectTasks';
-import ProjectComments from '../components/ProjectComments';
-import ProjectActivity from '../components/ProjectActivity';
-import ProjectMetrics from '../components/ProjectMetrics';
-import TagInput from '../components/TagInput';
-import { apiJson, formatDate, normalizeUrl } from '../api';
-import { showToast } from '../components/Toast';
+import { useCan } from './UserContext.jsx';
+import StatusBadge from './StatusBadge';
+import InlineEdit from './InlineEdit';
+import ProjectDrawer from './ProjectDrawer';
+import ProjectTasks from './ProjectTasks';
+import ProjectComments from './ProjectComments';
+import ProjectActivity from './ProjectActivity';
+import ProjectMetrics from './ProjectMetrics';
+import TagInput from './TagInput';
+import { apiJson, formatDate, normalizeUrl } from './api';
+import { showToast } from './Toast';
 
 const PRIORITY_OPTIONS = [
   { value: '',       label: 'לא נבחר' },

@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { Send, Inbox, MessageSquare, Briefcase, X, Search, Plus, ChevronDown, User as UserIcon, CornerUpLeft, Smile } from 'lucide-react';
-import { apiJson, getSession } from '../api';
+import { apiJson, getSession } from './api';
 
 const TABS = {
   PUBLIC: 'public',

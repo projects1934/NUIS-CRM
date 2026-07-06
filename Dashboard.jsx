@@ -2,10 +2,10 @@
 import { useState, useEffect, useContext, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Users, FolderOpen, RefreshCw, Activity, User, AlertTriangle, Clock, CheckSquare, ChevronLeft, Plus, Target, BarChart3, PieChart, TrendingUp, Wallet } from 'lucide-react';
-import { SettingsContext } from '../App';
-import { apiJson, formatDate } from '../api';
-import KanbanBoard from '../components/KanbanBoard';
-import { PartnerStatusDonut, ProjectsByStageBar, TaskCompletionLine, ImpactByTypeBar } from '../components/DashboardCharts';
+import { SettingsContext } from './App';
+import { apiJson, formatDate } from './api';
+import KanbanBoard from './KanbanBoard';
+import { PartnerStatusDonut, ProjectsByStageBar, TaskCompletionLine, ImpactByTypeBar } from './DashboardCharts';
 
 const PRIORITY_REPS = { high: 3, medium: 2, low: 1 };
 

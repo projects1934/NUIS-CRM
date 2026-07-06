@@ -2,13 +2,13 @@
 import { useState, useEffect, useMemo, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Plus, FolderOpen, Archive, Trash2, RefreshCw, RotateCcw, Users, List, LayoutGrid, Download, Search, X } from 'lucide-react';
-import ProjectDrawer from '../components/ProjectDrawer';
-import StatusBadge from '../components/StatusBadge';
-import { downloadProjectsXlsx } from '../utils/exportProjects';
-import KanbanBoard, { PriorityChip, DueChip } from '../components/KanbanBoard';
-import { SettingsContext } from '../App';
-import { apiJson, formatDate } from '../api';
-import { showToast } from '../components/Toast';
+import ProjectDrawer from './ProjectDrawer';
+import StatusBadge from './StatusBadge';
+import { downloadProjectsXlsx } from './exportProjects';
+import KanbanBoard, { PriorityChip, DueChip } from './KanbanBoard';
+import { SettingsContext } from './App';
+import { apiJson, formatDate } from './api';
+import { showToast } from './Toast';
 
 const VIEW_KEY = 'projectsView';
 const SEARCH_KEY = 'projectsSearchQuery';

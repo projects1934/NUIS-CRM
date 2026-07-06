@@ -5,9 +5,9 @@ import {
   Plus, Trash2, Wallet, TrendingUp, TrendingDown, Clock, AlertTriangle,
   ArrowDownToLine, ArrowUpFromLine, Search, X, CheckCircle2,
 } from 'lucide-react';
-import { apiJson } from '../api';
-import { useCan } from '../context/UserContext.jsx';
-import { showToast } from '../components/Toast';
+import { apiJson } from './api';
+import { useCan } from './UserContext.jsx';
+import { showToast } from './Toast';
 
 const DIRECTION_OPTIONS = [
   { value: 'incoming', label: 'נכנס (מהשותף אלינו)' },

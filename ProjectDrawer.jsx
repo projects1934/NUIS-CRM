@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { X, Trash2, Users, Building2, Link2, Calendar, Paperclip, Plus, ExternalLink, Flag, User as UserIcon, Clock } from 'lucide-react';
-import { apiJson, normalizeUrl } from '../api';
+import { apiJson, normalizeUrl } from './api';
 
 export default function ProjectModal({ isOpen, onClose, onSave, project = null }) {
   const [title, setTitle] = useState('');

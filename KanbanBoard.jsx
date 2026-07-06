@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/purity, react-refresh/only-export-components */
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { formatDate, apiJson } from '../api';
+import { formatDate, apiJson } from './api';
 import { showToast } from './Toast';
 
 const PRIORITY_REPS = { high: 3, medium: 2, low: 1 };

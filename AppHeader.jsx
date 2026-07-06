@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import NotificationBell from './NotificationBell';
-import { useCurrentUser, ROLE_LABEL } from '../context/UserContext.jsx';
+import { useCurrentUser, ROLE_LABEL } from './UserContext.jsx';
 
 const TITLES = {
   '/': 'דשבורד',

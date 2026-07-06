@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/exhaustive-deps */
 import { useContext, useState, useEffect } from 'react';
-import { SettingsContext } from '../App';
+import { SettingsContext } from './App';
 import { Palette, Smile, Tag, Building2, Layers, Trash2, Plus, Users, Shield, Eye, EyeOff, FileText, Copy } from 'lucide-react';
 import { useNavigate as useNav } from 'react-router-dom';
-import { apiJson } from '../api';
-import { showToast } from '../components/Toast';
-import { useRole } from '../context/UserContext.jsx';
+import { apiJson } from './api';
+import { showToast } from './Toast';
+import { useRole } from './UserContext.jsx';
 
 const COLORS = [
   { name: 'כחול עמוק',    value: '#1a56db' },

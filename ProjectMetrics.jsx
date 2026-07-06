@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useState } from 'react';
 import { Plus, Trash2, Target, ChevronLeft, ChevronDown } from 'lucide-react';
-import { apiJson, formatDate } from '../api';
+import { apiJson, formatDate } from './api';
 import { showToast } from './Toast';
 
 const METRIC_TYPES = [

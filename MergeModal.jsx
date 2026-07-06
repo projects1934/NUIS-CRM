@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import { useState, useEffect } from 'react';
 import { Search, Info, AlertTriangle } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 export default function MergeModal({ isOpen, onClose, onMerge, currentPartnerId, currentPartnerName }) {
   const [partners, setPartners] = useState([]);

@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { X, Plus, Trash2, Star } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 import TagInput from './TagInput';
 
 const emptyContact = () => ({ id: Date.now().toString(), name: '', role: '', phone: '', email: '', dataSource: '' });
