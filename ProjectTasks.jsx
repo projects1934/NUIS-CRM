@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Plus, Trash2, CheckSquare } from 'lucide-react';
-import { apiJson, formatDate } from '../api';
+import { apiJson, formatDate } from './api';
 import { showToast } from './Toast';
 
 const STATUS_CYCLE = ['todo', 'in_progress', 'done', 'blocked'];

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { X, Tag, Archive, Trash2, Check } from 'lucide-react';
-import { useCan } from '../context/UserContext.jsx';
-import { apiJson } from '../api';
+import { useCan } from './UserContext.jsx';
+import { apiJson } from './api';
 import { showToast } from './Toast';
 
 export default function BulkActionBar({ kind, selectedIds, onClear, onComplete, stageOptions = [] }) {

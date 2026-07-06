@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from 'react';
 import * as XLSX from 'xlsx';
 import { Upload, X, ChevronRight, ChevronLeft, Check, AlertCircle, FileSpreadsheet, Loader } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 /* ── Field definitions ─────────────────────────────────────────────── */
 const FIELDS = [

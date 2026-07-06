@@ -1,5 +1,5 @@
 import * as XLSX from 'xlsx';
-import { formatDate } from '../api';
+import { formatDate } from './api';
 
 const STATUS_LABELS = { active: 'פעיל', forming: 'בהתהוות', inactive: 'לא פעיל', archived: 'ארכיון' };
 

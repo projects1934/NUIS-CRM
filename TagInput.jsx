@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 const TAG_COLORS = ['#1a56db', '#057a55', '#c81e1e', '#5521b5', '#b45309', '#0694a2', '#374151'];
 

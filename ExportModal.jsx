@@ -1,8 +1,8 @@
 import { X, Download, Users, Building2, FolderOpen } from 'lucide-react';
 import * as XLSX from 'xlsx';
-import { apiJson, formatDate } from '../api';
+import { apiJson, formatDate } from './api';
 import { showToast } from './Toast';
-import { downloadProjectsXlsx } from '../utils/exportProjects';
+import { downloadProjectsXlsx } from './exportProjects';
 
 const STATUS_LABELS = { active: 'פעיל', forming: 'בהתהוות', inactive: 'לא פעיל', archived: 'ארכיון' };
 

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import { LAST_USER_KEY, saveSession } from '../api';
-import BrandLogo from '../components/BrandLogo';
+import { LAST_USER_KEY, saveSession } from './api';
+import BrandLogo from './BrandLogo';
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? 'http://localhost:3001/api' : '/api');
 

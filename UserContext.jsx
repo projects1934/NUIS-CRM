@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components, react-hooks/set-state-in-effect */
 import { createContext, useContext, useEffect, useState, useCallback } from 'react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 const UserContext = createContext(null);
 

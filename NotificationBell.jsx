@@ -2,7 +2,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { Bell, CheckCheck } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 
 function relative(ts) {
   const d = new Date(ts);

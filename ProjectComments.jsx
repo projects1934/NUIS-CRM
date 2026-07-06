@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Send, MessageSquare, Trash2 } from 'lucide-react';
-import { apiJson } from '../api';
+import { apiJson } from './api';
 import { showToast } from './Toast';
-import { renderBodyWithMentions } from '../utils/mentions.jsx';
+import { renderBodyWithMentions } from './mentions.jsx';
 
 function formatRelative(iso) {
   if (!iso) return '';

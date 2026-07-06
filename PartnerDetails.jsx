@@ -3,13 +3,13 @@ import { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { ArrowRight, Edit, Trash2, Send, User, Plus, X, Link, FolderOpen, Wallet } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import PartnerModal from '../components/PartnerModal';
-import MergeModal from '../components/MergeModal';
-import InlineEdit from '../components/InlineEdit';
-import StatusBadge from '../components/StatusBadge';
-import ShareMenu from '../components/ShareMenu';
-import { SettingsContext } from '../App';
-import { apiJson, formatDate } from '../api';
+import PartnerModal from './PartnerModal';
+import MergeModal from './MergeModal';
+import InlineEdit from './InlineEdit';
+import StatusBadge from './StatusBadge';
+import ShareMenu from './ShareMenu';
+import { SettingsContext } from './App';
+import { apiJson, formatDate } from './api';
 
 const LIST_STATE_KEY = 'partnersListState';
 
